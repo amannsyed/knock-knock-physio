@@ -5,15 +5,16 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.2.1",
     "react-dom": "^19.2.1"
   },
+  "homepage": "https://amannsyed.github.io/knock-knock-physio/",
   "devDependencies": {
     "@types/node": "^22.14.0",
     "@vitejs/plugin-react": "^4.5.0",
